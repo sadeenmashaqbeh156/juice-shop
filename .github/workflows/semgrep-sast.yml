@@ -2,7 +2,7 @@ name: Semgrep SAST Scan
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   semgrep:
